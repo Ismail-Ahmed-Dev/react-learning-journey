@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+🍕 Fast React Pizza Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that displays a pizza menu for a fictional restaurant. The project demonstrates component-based architecture, props usage, conditional rendering, and basic styling in React.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Display a list of pizzas from a data source.
 
-### `npm start`
+Show pizza details (name, ingredients, price, image).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Handle "Sold Out" state dynamically.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Conditional rendering for an empty menu state.
 
-### `npm test`
+Component-based structure (Header, Menu, Pizza, Footer).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Simple and clean UI with CSS styling.
 
-### `npm run build`
+🧱 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── App.jsx
+├── index.css
+├── main.jsx
+└── assets/
+    └── pizzas/
+        ├── focaccia.jpg
+        ├── margherita.jpg
+        ├── spinaci.jpg
+        ├── funghi.jpg
+        ├── salamino.jpg
+        └── prosciutto.jpg
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧠 How It Works
 
-### `npm run eject`
+The pizzaData array contains all the pizza information.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Menu component maps over the data and renders a Pizza component for each item.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If no pizzas exist, a fallback message is shown.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Pizza component checks if a pizza is sold out and updates the UI accordingly.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+⚙️ Technologies Used
 
-## Learn More
+React (Functional Components)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+JSX
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSS
 
-### Code Splitting
+JavaScript (ES6+)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📦 Installation & Setup
 
-### Analyzing the Bundle Size
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/your-username/fast-react-pizza.git
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Navigate to the project folder:
 
-### Advanced Configuration
+cd 1-pizza-menu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Run the project:
+
+npm run start
+
+
+🎯 Learning Goals
+
+Component composition in React
+
+Props passing
+
+Conditional rendering
+
+Array mapping in JSX
+
+Basic project structuring
+
+📸 Preview
+
+(Add screenshots of the project here if needed.)
+<img width="960" height="479" alt="image" src="https://github.com/user-attachments/assets/1a679700-6480-49ba-a619-ad1808fcd849" />
+
+<img width="960" height="479" alt="image" src="https://github.com/user-attachments/assets/1e70fae5-d2ed-4f50-ae7a-1e5f4a059792" />
+
+
+
+👨‍💻 Author
+
+Built with Ismail Ahmed❤️ while learning React.
