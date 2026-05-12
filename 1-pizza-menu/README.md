@@ -89,7 +89,6 @@ Basic project structuring
 
 📸 Preview
 
-(Add screenshots of the project here if needed.)
 <img width="960" height="479" alt="image" src="https://github.com/user-attachments/assets/1a679700-6480-49ba-a619-ad1808fcd849" />
 
 <img width="960" height="479" alt="image" src="https://github.com/user-attachments/assets/1e70fae5-d2ed-4f50-ae7a-1e5f4a059792" />
